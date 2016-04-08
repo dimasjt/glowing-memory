@@ -14,3 +14,11 @@ arr3 = [10, 11, 12, 13, 14]
 ## Ruby on Rails
 * For disable generate assets, test views, helpers
 [https://gist.github.com/dimasjt/a621b7f8ce9f25906e9e601e9291df8d](https://gist.github.com/dimasjt/a621b7f8ce9f25906e9e601e9291df8d)
+
+
+## PosgreSQL
+
+* Import data
+```bash
+  $ psql -U postgres_user -d database_name -a -f data.sql
+```
