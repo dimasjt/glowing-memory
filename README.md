@@ -22,3 +22,14 @@ arr3 = [10, 11, 12, 13, 14]
 ```bash
   $ psql -U postgres_user -d database_name -a -f data.sql
 ```
+
+## MeteorJS
+
+* Cross Origin Cors, add this code in server directory
+```javascript
+WebApp.connectHandlers.use(function(req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  return next();
+});
+
+```
