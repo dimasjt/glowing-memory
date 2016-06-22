@@ -33,3 +33,10 @@ WebApp.connectHandlers.use(function(req, res, next) {
 });
 
 ```
+
+## Atom.io
+
+- [Highlight selected](https://atom.io/packages/highlight-selected)
+- [Emmet](https://atom.io/packages/emmet)
+- [git-diff-details](https://atom.io/packages/git-diff-details)
+- [Ruby slim](https://atom.io/packages/ruby-slim)
