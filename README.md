@@ -40,3 +40,12 @@ WebApp.connectHandlers.use(function(req, res, next) {
 - [Emmet](https://atom.io/packages/emmet)
 - [git-diff-details](https://atom.io/packages/git-diff-details)
 - [Ruby slim](https://atom.io/packages/ruby-slim)
+
+## AngularJS
+- Plugins:
+  - [ui-router](https://github.com/angular-ui/ui-router)
+  - [ui-select](https://github.com/angular-ui/ui-select)
+  - [restangular](https://github.com/mgonto/restangular)
+  - [checklist-model](https://github.com/vitalets/checklist-model)
+  - [multipledatepicker](https://github.com/arca-computing/MultipleDatePicker)
+  - [angular-actioncable](https://github.com/angular-actioncable/angular-actioncable)
