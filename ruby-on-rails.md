@@ -6,3 +6,4 @@
 
 * Use I18n for add text, error messages, etc
 
+* Use HTTP status code with symbol names https://gist.github.com/mlanett/a31c340b132ddefa9cca
