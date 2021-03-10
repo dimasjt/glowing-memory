@@ -53,3 +53,15 @@ WebApp.connectHandlers.use(function(req, res, next) {
   - [checklist-model](https://github.com/vitalets/checklist-model)
   - [multipledatepicker](https://github.com/arca-computing/MultipleDatePicker)
   - [angular-actioncable](https://github.com/angular-actioncable/angular-actioncable)
+
+## MySQL
+```
+# To export to file (data only)
+mysqldump -u [user] -p[pass] --no-create-info mydb > mydb.sql
+
+# To export to file (structure only)
+mysqldump -u [user] -p[pass] --no-data mydb > mydb.sql
+
+# To import to database
+mysql -u [user] -p[pass] mydb < mydb.sql
+```
