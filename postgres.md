@@ -8,6 +8,8 @@
 - Export
   - `pg_dump -U username -h host db_name > exported_db.dump`
   - `pg_dump -U username -h host db_name > exported_db.pgsql`
+  - schema only `pg_dump -U username -h host -s db_name > exported_db.pgsql`
+  - data only `pg_dump -U username -h host -a db_name > exported_db.pgsql`
 
 - Import
 
